@@ -1,0 +1,25 @@
+
+.nav {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.navList {
+    display: flex;
+    gap: 20px;
+}
+
+.navItem {
+    font-size: 50px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.active {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,16 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.movieCard {
+    border: 1px solid black;
+}
+
+.title {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
