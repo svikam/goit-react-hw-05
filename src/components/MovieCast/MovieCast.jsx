@@ -22,11 +22,11 @@ const MovieCast = () => {
         <div>
             <h2>Cast</h2>
             <ul className={s.cast}>
-                {cast.map((actor) => {
+                {cast.map((actor) => (
                     <li key={actor.cast_id}>
                         {actor.name} as {actor.character}
                     </li>
-                })}
+                ))}
             </ul>
         </div>
     );
